@@ -9,4 +9,12 @@ Primero debemos clonar el repositorio dentro de nuestra consola de linux
 ```bash
 git clone https://github.com/AntLecter/escraping_fdd.git
 ```
-En la carpeta del repo abrir vscode y acepta la ejecucion del contenedor 
+En la carpeta del repo construir la imagena partir del Dockerfile
+```bash
+docker build -t escarping .
+```
+Ejecutamo un contenedor con la imagen 
+```bash
+docker run -p 8888:8888 escraping
+```
+Ahora desde nuestro navegador abrimos localhost:8888

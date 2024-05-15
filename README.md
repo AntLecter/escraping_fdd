@@ -13,8 +13,8 @@ docker build -t escraping .
 ```
 Ejecuitemo el contenedor 
 ```bash
-docker run -d antlecter/scarping_net
-docker run -d -p 8080:80 antlecter/scarping_net
+docker run -d escraping
+docker run -d -p 8080:80 escraping 
 
 ```
 Ahora abrimos el archivo proyecto.ipynb en vscode 

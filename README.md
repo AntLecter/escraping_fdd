@@ -7,9 +7,9 @@ Primero debemos clonar el repositorio dentro de nuestra consola de linux
 ```bash
 git clone https://github.com/AntLecter/escraping_fdd.git
 ```
-Ahora dentro de nuestra carpeta del repo, montaremos el docker 
+Ahora dentro de nuestra carpeta del repo,  creamos la imagen del docker  
 ```bash
-docker pull antlecter/scarping_net
+docker build -t escraping . 
 ```
 Ejecuitemo el contenedor 
 ```bash

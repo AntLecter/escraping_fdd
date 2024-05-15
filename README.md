@@ -11,7 +11,7 @@ git clone https://github.com/AntLecter/escraping_fdd.git
 ```
 En la carpeta del repo construir la imagena partir del Dockerfile
 ```bash
-docker build -t escarping .
+docker build -t escraping .
 ```
 Ejecutamo un contenedor con la imagen 
 ```bash

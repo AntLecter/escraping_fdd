@@ -9,13 +9,4 @@ Primero debemos clonar el repositorio dentro de nuestra consola de linux
 ```bash
 git clone https://github.com/AntLecter/escraping_fdd.git
 ```
-Ahora dentro de nuestra carpeta del repo,  creamos la imagen del docker  
-```bash
-docker build -t escraping . 
-```
-Ejecuitemo el contenedor 
-```bash
-docker run -d -p 8080:80 escraping 
-
-```
-Ahora abrimos el archivo proyecto.ipynb en vscode 
+En la carpeta del repo abrir vscode y acepta la ejecucion del contenedor 

@@ -13,7 +13,6 @@ docker build -t escraping .
 ```
 Ejecuitemo el contenedor 
 ```bash
-docker run -d escraping
 docker run -d -p 8080:80 escraping 
 
 ```

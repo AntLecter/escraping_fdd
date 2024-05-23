@@ -1,0 +1,16 @@
+name: webscraping-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9  # Elegimos Python 3.9 para asegurarnos de que distutils esté disponible
+  - pip
+  - pandas
+  - matplotlib
+  - selenium
+  - beautifulsoup4
+  - requests
+  - jupyterlab
+  - pip:
+    - undetected-chromedriver  # Esta dependencia necesita instalarse via pip
+
